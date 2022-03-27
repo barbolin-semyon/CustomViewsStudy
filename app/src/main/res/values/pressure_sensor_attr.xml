@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pressure_sensor">
+        <attr name="background_color_up" format="color"/>
+        <attr name="background_color_bottom" format="color"/>
+        <attr name="background_color_btn" format="color"/>
+        <attr name="background_color_text_btn" format="color"/>
+        <attr name="background_color" format="color"/>
+    </declare-styleable>
+
+
+    <attr name="pressure_sensor" format="reference"/>
+</resources>
