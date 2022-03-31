@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="pressure_sensor">@style/defaultPressureSensor</item>
+        <item name="loader_styleable">@style/defaultLoaderStyle</item>
     </style>
     
     <style name="defaultPressureSensor">
@@ -26,6 +27,16 @@
     <style name="purplePressureSensor" parent="defaultPressureSensor">
         <item name="background_color_up">@color/purple_200</item>
         <item name="background_color_bottom">@color/purple_700</item>
+    </style>
+    
+    <style name="defaultLoaderStyle">
+        <item name="loader_color">@color/teal_200</item>
+        <item name="two_loader_color">@color/purple_200</item>
+    </style>
+
+    <style name="purpleLoaderStyle">
+        <item name="loader_color">#008B7E</item>
+        <item name="two_loader_color">@color/teal_700</item>
     </style>
 
 </resources>

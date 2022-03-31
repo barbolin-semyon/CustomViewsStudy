@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="loader_styleable">
+        <attr name="loader_color" format="color"/>
+        <attr name="two_loader_color" format="color"/>
+    </declare-styleable>
+
+    <attr name="loader_styleable" format="reference"/>
+</resources>
