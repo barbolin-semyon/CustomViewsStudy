@@ -7,13 +7,14 @@
     android:background="#272727"
     tools:context=".MainActivity">
 
-    <com.example.customviewsstudy.Loader
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        style="@style/purpleLoaderStyle"
-        app:layout_constraintEnd_toEndOf="parent"
+    <com.example.customviewsstudy.ArcLoader
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/purpleLoaderStyle"
+        app:loader_color="#ACACAC"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

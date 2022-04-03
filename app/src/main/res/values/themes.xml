@@ -35,7 +35,7 @@
     </style>
 
     <style name="purpleLoaderStyle">
-        <item name="loader_color">#008B7E</item>
+        <item name="loader_color">#0180B1</item>
         <item name="two_loader_color">@color/teal_700</item>
     </style>
 
