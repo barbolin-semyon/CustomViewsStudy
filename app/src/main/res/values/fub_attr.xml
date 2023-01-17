@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="fub_attr">
+        <attr name="color" format="color"/>
+        <attr name="main_icon" format="reference"/>
+    </declare-styleable>
+
+    <attr name="fub_attr" format="reference"/>
+</resources>

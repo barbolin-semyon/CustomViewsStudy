@@ -14,12 +14,13 @@
         <!-- Customize your theme here. -->
         <item name="pressure_sensor">@style/defaultPressureSensor</item>
         <item name="loader_styleable">@style/defaultLoaderStyle</item>
+        <item name="fub_attr">@style/fub</item>
     </style>
     
     <style name="defaultPressureSensor">
         <item name="background_color">@color/gray</item>
-        <item name="background_color_up">@color/teal_200</item>
-        <item name="background_color_bottom">@color/teal_700</item>
+        <item name="background_color_up">@color/orange_500</item>
+        <item name="background_color_bottom">@color/orange_700</item>
         <item name="background_color_btn">@color/black</item>
         <item name="background_color_text_btn">@color/white </item>
     </style>
@@ -37,6 +38,45 @@
     <style name="purpleLoaderStyle">
         <item name="loader_color">#0180B1</item>
         <item name="two_loader_color">@color/teal_700</item>
+    </style>
+
+    <style name="fub">
+        <item name="color">#0180B1</item>
+    </style>
+
+    <style name="fub_f">
+        <item name="color">@color/teal_700</item>
+    </style>
+
+    <style name="Theme.CustomViewTemperatureEditor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:background">@color/gray700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="temperatureEditorStyle">@style/defaultTemperatureEditorStyle</item>
+    </style>
+
+    <style name="defaultTemperatureEditorStyle">
+        <item name="background_circle">@color/gray500</item>
+        <item name="background_centre_start">@color/black</item>
+        <item name="background_centre_end">@color/gray200</item>
+        <item name="background_progress_end">@color/orange_500</item>
+        <item name="background_progress_start">@color/orange_700</item>
+        <item name="background_slider">@color/gray700</item>
+    </style>
+
+    <style name="BlueTemperatureEditorStyle" parent="defaultTemperatureEditorStyle">
+        <item name="background_progress_start">@color/purple_500</item>
+        <item name="background_progress_end">@color/purple_200</item>
     </style>
 
 </resources>
